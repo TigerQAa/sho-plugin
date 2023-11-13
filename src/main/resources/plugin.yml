@@ -1,0 +1,12 @@
+name: ShoPlugin
+version: '${project.version}'
+main: com.tigerqa.sho.ShoPlugin
+api-version: '1.20'
+commands:
+  stopServer:
+    description: Allowed players can use this to stop the server.
+    usage: /stopServer
+
+  changeGamerule:
+    description: Minister of Law can change gamerules using this.
+    usage: /changeGamerule <0-overworld|1-nether|2-end> <rule name> <rule value>
